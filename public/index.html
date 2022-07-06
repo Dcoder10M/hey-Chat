@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hey-Chat</title>
+    <link rel="icon" href="https://p7.hiclipart.com/preview/680/368/23/5bbef6de1d3cc.jpg" type="image/icon type">
+    <link rel="stylesheet" href="styles.css" >
+  </head>
+  <body>
+    <main class="container" >
+      <div class="messages_container">
+        <div class="h">Hey-Chat!!</div>
+        <div class="messages" id="messages" ></div>
+        <form class="input_container" id="form">
+          <input class="input" id="input" placeholder="Message" />
+          <button class="btn" type="submit" >Send</button>
+        </form>
+      </div>
+    </main>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
